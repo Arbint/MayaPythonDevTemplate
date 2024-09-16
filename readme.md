@@ -18,6 +18,12 @@ this will tell Maya to listen for command from localhost(your machine) on port 7
 use the script:
 SendToMaya.py:
 ```
-python SendToMaya.py -f yourScript.py
+python SendToMaya.py yourScript.py
 ```
+
+example:
+```
+python ./Src/SendToMaya.py ./Src/HelloWorld.py
+```
+
 
