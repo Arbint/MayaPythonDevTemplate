@@ -1,5 +1,5 @@
 import maya.cmds as mc
 
-mc.sphere(n="helloFromPython")
-
+selection = mc.ls(sl=True)
+print(selection)
 

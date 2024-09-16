@@ -13,6 +13,14 @@ commandPort -n "localhost:7001" -stp "python"
 ```
 Press ```Alt + Enter``` to run it.
 this will tell Maya to listen for command from localhost(your machine) on port 7001
+If doing remotely, need to change the command to:
+```
+commandPort -n "0.0.0.0:7001" -stp "python"
+```
+and alter the ```SendToMaya.py``` to connect to the host ip on line 11:
+```
+host = "Maya Computer LAN IP"
+```
 
 ## How to Send Code to Maya:
 use the script:
