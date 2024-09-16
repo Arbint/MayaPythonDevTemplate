@@ -35,4 +35,10 @@ example:
 python ./Src/SendToMaya.py ./Src/HelloWorld.py
 ```
 
+## Using PySide
+The devkit from maya do not provide PySide6, only PySide2, you will need to install PySide6 on your own:
+```
+pip install PySide6
+```
+
 
