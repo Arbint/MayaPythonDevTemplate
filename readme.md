@@ -9,7 +9,7 @@ this is is a template project that is designed for:
 ## How to configure Maya:
 * open Maya Script Editor, and in the Mel tab, type in:
 ```
-commandPort -n "localhost:7001"
+commandPort -n "localhost:7001" -stp "python"
 ```
 Press ```Alt + Enter``` to run it.
 this will tell Maya to listen for command from localhost(your machine) on port 7001
